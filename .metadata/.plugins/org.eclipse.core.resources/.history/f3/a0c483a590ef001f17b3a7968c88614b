@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*"%>
+<%@ page import="DBPKG.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+	Connection conn = null;
+	Statement stmt = null;
+	
+	String mode = request.getParameter("mode");
+	
+	String custno = request.getParameter("custno");
+	String custname = request.getParameter("custname");
+	
+	try{
+		conn = Util.getConnection();
+		stmt = conn.createStatement();
+		String sql = "";
+		
+		switch(mode){
+		case "insert" :
+			sql = "insert into member_tbl_02 values(" + custno +"," 
+		+"'"+ custname + "'," 
+		+"'"+ phone +"'," 
+		+"'"+ address + "'," 
+		+"TO DATE('"+ joindate +"', 'yyyy-mm-dd')"
+		+"'"+ grade+"',"
+		+"'"+ city +"')";	
+		stmt.executeUpdate(sql);
+		break;
+		case "modify" :
+			sql = "UPDATE member_tbl_02 set " +
+					"custname = '" + custname + "'," +
+					"phone = '" + phone + "'," +
+					"address = '" + address + "'," +
+					"joindate = TO_DATE('" + joindate + "', 'yyyy-mm-dd')" +
+					"grade = '" + grade + "'," +
+					"city = '" + city + "' " +
+					"where custno = " + custno ;
+							
+			stmt.executeQuery(sql);
+			break;
+		}
+	}
+%>
+</body>
+</html>

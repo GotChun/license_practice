@@ -1,0 +1,3 @@
+function add(){
+	if(frm.sid.value.length==0){}
+}

@@ -1,0 +1,23 @@
+
+2월 18, 2025 23:10:56.13 NEW SESSION
+2월 18, 2025 23:10:56.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 18, 2025 23:10:56.17 [27204:20980:0218/231056.177:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 18, 2025 23:11:44.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 18, 2025 23:11:44.18 [28208:4972:0218/231144.180:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 18, 2025 23:12:15.29 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 18, 2025 23:12:15.44 [21684:7744:0218/231215.447:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 18, 2025 23:13:03.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 18, 2025 23:13:03.54 [26584:21448:0218/231303.542:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+2월 19, 2025 21:40:27.78 NEW SESSION
+2월 19, 2025 21:40:27.79 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 19, 2025 21:40:27.95 [500:5892:0219/214027.954:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 22, 2025 22:15:09.50 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 22, 2025 22:15:09.56 [20972:13204:0222/221509.568:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 22, 2025 22:25:44.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 22, 2025 22:25:44.39 [31788:4912:0222/222544.396:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 22, 2025 22:26:08.94 [31788:4912:0222/222608.948:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 22, 2025 22:34:44.76 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 22, 2025 22:34:44.98 [36500:29628:0222/223444.988:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+2월 22, 2025 22:36:06.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 22, 2025 22:36:06.99 [35040:36288:0222/223606.989:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT

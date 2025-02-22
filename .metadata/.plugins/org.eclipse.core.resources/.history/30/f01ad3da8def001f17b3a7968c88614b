@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*"%>
+<%@ page import="DBPKG.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<%
+	Connection conn = null;
+	Statement stmt = null;
+	
+	String mode = request.getParameter("mode");
+	
+	try{
+		conn = Util.getConnection();
+		stmt = conn.createStatement();
+		String sql = "";
+		
+		switch(mode){
+		case "insert" :
+			sql = "insert into member_tbl_02 values(" + custno +","+ custname + "," +phone,address,joindate,grade,city)"	
+		case "modify" :
+		}
+	}
+%>
+</body>
+</html>

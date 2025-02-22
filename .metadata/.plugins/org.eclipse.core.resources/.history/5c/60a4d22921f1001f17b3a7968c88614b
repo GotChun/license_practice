@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="db.jsp" %>
+<%
+request.setCharacterEncoding("UTF-8");
+
+try{
+	String sql="insert into tbl_score_202210 values(?,?,?,?,?,?,?)";
+	PreparedStatement pstmt = con.prepareStatement(sql);
+	ResultSet rs = pstmt.executeQuery();
+	rs.next(); //표라면 while 문으로 하기
+}catch(Exception e){e.printStackTrace();}
+%>

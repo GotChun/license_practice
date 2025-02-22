@@ -1,0 +1,6 @@
+function add(){
+	if(frm.sid.value.length==0){
+		alert("학번이 입력되지 않았습니다 !");
+		frm.sid.focus(); //포인터 옮기기
+	}
+}

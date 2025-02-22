@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="268"/>
+		<item key="DIALOG_Y_ORIGIN" value="60"/>
+		<item key="DIALOG_WIDTH" value="1002"/>
+		<item key="DIALOG_HEIGHT" value="798"/>
+		<item key="DIALOG_FONT_NAME" value="1|Pretendard|10.125|0|WINDOWS|1|-27|0|0|0|400|0|0|0|-127|0|0|0|2|Pretendard"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.server.ui.new.server"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.server.ui"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+		</section>
+	</section>
+</section>
