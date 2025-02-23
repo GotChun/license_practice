@@ -1,0 +1,36 @@
+insert into tbl_student_202210 values('20220011','김한국','사회복지과','0301013111111','010-1111-1111','hankuk@naver.com');
+
+insert into tbl_student_202210 values('20220012','홍길동','관광과','0202013222222','010-2222-2222','hongkil@naver.com');
+
+insert into tbl_student_202210 values('20220013','김미자','패션디자인과','0203014333333','010-3333-3333','kimja@naver.com');
+
+insert into tbl_student_202210 values('20220014','윤한얼','물리치료과','020401444444','010-4444-4444','yoon@naver.com');
+
+insert into tbl_student_202210 values('20220015','김성진','모던음악과','0205013555555','010-5555-5555','kimsjk@naver.com');
+
+insert into tbl_student_202210 values('20220016','조민지','건축과','0206014666666','010-6666-6666','jmg@naver.com');
+
+
+create table tbl_score_202210(
+	sid char(8) not null primary key,
+	subcode char(4),
+	midscore number,
+	finalscore number,
+	attend number,
+	report number,
+	etc number);
+
+
+insert into tbl_score_202210 values('2022001','A001',80,90,100,100,100);
+insert into tbl_score_202210 values('2022002','A001',85,90,90,90,80);
+insert into tbl_score_202210 values('2022003','A001',75,75,80,77,80);
+insert into tbl_score_202210 values('2022004','A001',70,90,50,50,700);
+insert into tbl_score_202210 values('2022005','A002',70,90,55,60,800);
+insert into tbl_score_202210 values('2022006','A002',60,90,75,90,900);
+
+
+insert into tbl_subject_202210 values('A001','자바','정명석');
+insert into tbl_subject_202210 values('A002','C언어','김미숙');
+insert into tbl_subject_202210 values('A003','데아터베이스','서길동');
+insert into tbl_subject_202210 values('A004','웹프로그래밍','이건원');
+insert into tbl_subject_202210 values('A005','영어','박태민');
