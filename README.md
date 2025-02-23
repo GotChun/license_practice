@@ -7,12 +7,12 @@
 
 1. 자바 설치 후 환경변수 설정
 2. 이클립스 설치 후 window-preferences 에서 files 입력 후 css.html,jsp 인코딩 설정. 마찬가지로 spelling,workspace 입력 후 인코딩 UTF-8로 설정.
-3. 그리고 form 을 사용하는 모든곳에서 (JSP 파일) request.setCharacterEncoding("UTF-8");  코드를 입력해준다.
+3. 그리고 form 을 사용하는 모든곳에서 (JSP 파일) request.setCharacterEncoding("UTF-8");  코드를 입력해준다.<br>
 학원에서는 filter를 사용해서 모든 요청을 다 UTF-8 로 설정해주긴 했는데 기억이 안나서 그냥 이 코드를 일일히 써주도록 한다. (상관은 없긴함)
 4. DB 코드를 사용하는 모든 곳에 반드시 try , catch 문을 작성해주기. (매우 중요) 예외 처리를 하지 않으면 에러가 나도 알 수가 없다 !
 5. switch 문을 사용할 때 break 을 마지막에 써주기
 6. sql 문 잘 살펴보기
-7. css 스타일에 너무 신경쓰지 말기(가장 기본적인 것만 설정해주기)
+7. css 스타일에 너무 신경쓰지 말기(가장 기본적인 것만 설정해주기) <br>
 
-일단 이 정도로 해두면 되겠다. 
+일단 이 정도로 해두면 되겠다. <br>
 최대한 코드는 빨리 작성하고 전체적으로 오류가 있는지 살펴보기 !
